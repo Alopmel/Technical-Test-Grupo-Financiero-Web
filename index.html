@@ -8,7 +8,67 @@
 </style>
 <body>
     <section id="search">
-
+        <div id="simply_search">
+            <input type="text" name="txtSearch" id="txtSearch" class="txtSearch" value="" placeholder="Search by fund name or ISIN">
+            <input type="button" name="btnSearch" id="btnSearch" class="btnSearch">
+        </div>
+        <div id="multiple_search">
+            <div id="title_search">
+                <H4> Simply Search</H4>
+            </div>
+            <div id="form_search">
+                <div id="formSpam">
+                    <div id="titleForm">
+                        <a class="imgForm" title="The company which manages the fund.">
+                            <i class="info"></i>
+                        </a>
+                        <span> Fund manager </span>
+                    </div>           
+                    <div class="select">
+                        <select name="managerOptions" id="managerOptions" style="display: none;" multiple>
+                            <option value="">
+                                Selection01
+                            </option>
+                        </select>
+                    </div>
+                    <div id="titleForm">
+                        <a class="imgForm" title="The company which manages the fund.">
+                            <i class="info"></i>
+                        </a>
+                        <span> Location </span>
+                    </div>           
+                    <div class="select">
+                        <select name="managerOptions" id="managerOptions" style="display: none;" multiple>
+                            <option value="">
+                                Selection01
+                            </option>
+                        </select>
+                    </div>
+                    <div id="titleForm">
+                        <a class="imgForm" title="The company which manages the fund.">
+                            <i class="info"></i>
+                        </a>
+                        <span> Sector </span>
+                    </div>           
+                    <div class="select">
+                        <select name="managerOptions" id="managerOptions" style="display: none;" multiple>
+                            <option value="">
+                                Selection01
+                            </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="button_search">
+                <div id="btnLeft">
+                    <input type="button" id="btnSearchAdvanced" name="btnSearchAdvanced" title="Advanced filter" alt="Advanced filter" value="Advanced filter" class="btnSearch">
+                    <input type="button" id="btnViewFavourites" name="btnViewFavourites" title="View my favourite funds" alt="View my favourite funds" value="View my favourite funds" class="btnSearch">
+                </div>
+                <div id="btnRight">
+                    <input type="button" id="btnSearchOptions" name="btnSearchOptions" title="Search" alt="Search" value="Search" class="btnSearch">
+                </div>
+            </div>
+        </div>
     </section>
     <section id="description">
 
