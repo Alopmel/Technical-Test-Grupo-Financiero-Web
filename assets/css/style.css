@@ -33,3 +33,62 @@ body{
     height: 2.1rem;
     border: none;
 }
+
+#header{
+    background-color:#D4DACE;
+    padding: 1rem;
+}
+
+#form_search{
+    margin: 1.4rem auto;
+}
+
+#title_search{
+    font-size: 1.2rem;
+}
+
+#formSpam{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 7rem;
+}
+
+.titleSpan{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+select{
+    text-align: left;
+    color: #5a555a;
+    background-color: white;
+    border: none;
+    font-size: 0.7rem;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 0.2rem;
+    width: 12rem;
+    margin-top: 0.6rem;
+}
+
+#button_search{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 29rem;
+    margin-bottom: 0.4rem;
+
+}
+
+.btnSearch{
+    border: 0 none;
+    color: white;
+    cursor: pointer;
+    float: left;
+    font-size: 0.9rem;
+    font-weight: bold;
+    height: 30px;
+    margin-right: 1.1rem;
+    padding: 0.4rem;
+    background-color: #ed0001;
+}
