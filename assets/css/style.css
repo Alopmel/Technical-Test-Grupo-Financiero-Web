@@ -59,7 +59,7 @@ body{
     font-size: 1.1rem;
 }
 
-select{
+#managerOptions{
     text-align: left;
     color: #5a555a;
     background-color: white;
@@ -75,7 +75,7 @@ select{
     display: flex;
     flex-direction: row;
     align-items: start;
-    gap: 29rem;
+    gap: 32.4rem;
     margin-bottom: 0.4rem;
 
 }
@@ -88,7 +88,97 @@ select{
     font-size: 0.9rem;
     font-weight: bold;
     height: 30px;
-    margin-right: 1.1rem;
+    margin-right: 0.6rem;
     padding: 0.4rem;
     background-color: #ed0001;
 }
+
+/* Description section CSS */
+
+#description{
+    margin-top: 3rem;
+}
+
+#headerDescription,#listDescription{
+    background-color: #5A555A;
+}
+
+#headerDescription{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+#showHideFound{
+    padding-right: 1.3rem;
+    color: white;
+    font-weight: bold;
+}
+
+li{
+    display: inline;
+    color: white;
+    font-weight: bold;
+}
+
+#listDescription{
+    text-align: end;
+    padding: 0.4rem 0rem;
+}
+
+#viewOptions{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    height: 1.8rem;
+    color: #5B555A;
+    color: #5B555A;
+    margin-right: 2rem;
+}
+
+.liDescription{
+    margin: 0.2rem;
+}
+
+/* Createte CSS for the TABLE */
+
+#resp-table {
+    width: 100%;
+    display: table;
+}
+
+#resp-table-header{
+    display: table-header-group;
+    background-color: gray;
+    font-weight: bold;
+    font-size: 25px;
+    /*display: flex;
+    justify-content: space-around;*/
+    background-color: #EEF4F6;
+}
+
+.table-header-cell{
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+    border-bottom: 1px solid black;
+}
+
+#resp-table-body{
+    display: table-row-group;
+}
+
+.resp-table-row{
+    display: table-row;
+}
+
+.table-body-cell{
+    display: table-cell;
+}
+
+#resp-table-caption{
+    display: table-caption;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    }
